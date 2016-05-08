@@ -6,8 +6,7 @@ machine:
 dependencies:
   pre:
     - echo y | android update sdk --no-ui --all --filter "tools"
-	
-	
+
 test:
   override:
     # start the emulator
